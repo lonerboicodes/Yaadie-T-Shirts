@@ -1,0 +1,42 @@
+<!-- Aurthor: Devany Walker -->
+<!-- ID#: 2300064 -->
+<!-- Occurence: UM2 -->
+ 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign up.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img src="products/Yaadie T-Shirts LOGO.png" alt="Business Logo" class="logo"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product and service.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about us.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form action="/submit-signup" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="8">
+            
+            <a href="login.html">Already have an account? login</a>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

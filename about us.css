@@ -1,0 +1,66 @@
+/* Author: Devany Walker */
+/* ID#: 2300064 */
+/* Occurence: UM2 */
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #FFD700; /* Gold text */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #008000; /* Green background */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: #FFD700; /* Gold text */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #006400; /* Dark green hover effect */
+}
+
+.about-us-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #000; /* Black background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.about-us {
+    font-size: 1.2em;
+}
+
+.about-us p {
+    margin: 10px 0;
+}
+
+.about-us a {
+    color: #FFD700; /* Gold text */
+    text-decoration: none;
+}
+
+.about-us a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+<!-- Aurthor: Devany Walker -->
+<!-- ID#: 2300064 -->
+<!-- Occurence: UM2 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="invoice.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product and service.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about us.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="invoice-container">
+        <h2>Invoice</h2>
+        <div id="invoice-details">
+            <!-- Invoice details will be dynamically inserted here -->
+        </div>
+        <div class="actions">
+            <button onclick="window.print()">Print Invoice</button>
+            <button id="cancelButton">Cancel</button>
+            <button id="exitButton">Exit</button>
+        </div>
+    </div>
+    <script src="invoice.js"></script>
+</body>
+</html>
